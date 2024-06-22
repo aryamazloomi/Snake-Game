@@ -129,7 +129,7 @@ def reset_game():
     pen.clear()
     pen.write("Score: {}  High Score: {}".format(score, high_score), align="center", font=("Courier", 24, "normal"))
 
-# Simple AI movement
+# Simple AI movement with lookahead
 def ai_move():
     directions = ['up', 'down', 'left', 'right']
     moves = {
